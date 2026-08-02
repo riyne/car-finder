@@ -1,0 +1,86 @@
+.app-shell {
+	min-height: 100vh;
+	padding: 48px 24px;
+	background:
+		radial-gradient(circle at top, rgba(255, 198, 88, 0.18), transparent 35%),
+		linear-gradient(180deg, #121212 0%, #1b1b1b 100%);
+	color: #f3f0ea;
+}
+
+.hero,
+.panel {
+	width: min(920px, 100%);
+	margin: 0 auto;
+}
+
+.hero {
+	margin-bottom: 24px;
+}
+
+.eyebrow {
+	margin: 0 0 8px;
+	text-transform: uppercase;
+	letter-spacing: 0.18em;
+	color: #f8c66c;
+	font-size: 0.78rem;
+}
+
+h1 {
+	margin: 0;
+	font-size: clamp(2.2rem, 4vw, 4.5rem);
+	line-height: 1;
+	max-width: 12ch;
+}
+
+.subtitle {
+	max-width: 56ch;
+	color: rgba(243, 240, 234, 0.75);
+	font-size: 1.05rem;
+}
+
+.panel {
+	padding: 24px;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.04);
+	backdrop-filter: blur(16px);
+	box-shadow: 0 24px 80px rgba(0, 0, 0, 0.22);
+}
+
+.button-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.dealer-button {
+	border: 0;
+	border-radius: 999px;
+	padding: 14px 18px;
+	background: #f8c66c;
+	color: #1b1b1b;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.dealer-button:disabled {
+	opacity: 0.65;
+	cursor: not-allowed;
+}
+
+.status {
+	margin-top: 16px;
+}
+
+.status.error {
+	color: #ff9a9a;
+}
+
+.output {
+	margin-top: 16px;
+	padding: 16px;
+	overflow: auto;
+	border-radius: 16px;
+	background: rgba(0, 0, 0, 0.35);
+	color: #e9e2d3;
+}
