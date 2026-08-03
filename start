@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CLIENT_DIR="$PROJECT_ROOT/client"
+SERVER_DIR="$PROJECT_ROOT/server"
+
+FRONTEND_PORT=5173
+BACKEND_PORT=8000
+
+cleanup() {
+  echo ""
+  echo "Shutting down frontend and backend..."
+
+  if [[ -n "${FRONTEND_PID:-}" ]]; then
+    kill "$FRONTEND_PID" 2>/dev/null || true
+  fi
+
+  if [[ -n "${BACKEND_PID:-}" ]]; then
+    kill "$BACKEND_PID" 2>/dev/null || true
+  fi
+
+  # Belt-and-suspenders: clean up anything still bound to the ports
+  kill -9 $(lsof -ti ":$FRONTEND_PORT") 2>/dev/null || true
+  kill -9 $(lsof -ti ":$BACKEND_PORT") 2>/dev/null || true
+}
+
+wait_for_frontend() {
+  local urls=("http://localhost:$FRONTEND_PORT" "http://127.0.0.1:$FRONTEND_PORT")
+  local attempts=0
+
+  while [[ $attempts -lt 60 ]]; do
+    for url in "${urls[@]}"; do
+      if curl --silent --fail "$url" >/dev/null; then
+        return 0
+      fi
+    done
+
+    sleep 1
+    attempts=$((attempts + 1))
+  done
+
+  return 1
+}
+
+echo "Cleaning up any leftover processes from a previous run..."
+kill -9 $(lsof -ti ":$BACKEND_PORT") 2>/dev/null || true
+kill -9 $(lsof -ti ":$FRONTEND_PORT") 2>/dev/null || true
+
+trap cleanup EXIT INT TERM
+
+echo "Starting backend..."
+(
+  cd "$SERVER_DIR"
+  "$SERVER_DIR/.venv/bin/python" -m uvicorn main:app --reload
+) &
+BACKEND_PID=$!
+
+echo "Starting frontend..."
+(
+  set +euo pipefail
+  cd "$CLIENT_DIR"
+  source ~/.nvm/nvm.sh
+  nvm use 20.19.0 >/dev/null
+  npm run dev
+) &
+FRONTEND_PID=$!
+
+echo "Waiting for frontend to be ready..."
+if ! wait_for_frontend; then
+  echo "Frontend did not become ready in time."
+  exit 1
+fi
+
+echo "Opening Chrome..."
+open -a "Google Chrome" "http://localhost:$FRONTEND_PORT"
+
+wait

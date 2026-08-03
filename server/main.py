@@ -154,23 +154,22 @@ def compare_stock_rows(current_rows: list[dict], previous_rows: list[dict]) -> d
 def dump_page_state(driver: webdriver.Chrome) -> None:
     page_title = driver.title
     current_url = driver.current_url
-    body_html = driver.find_element(By.TAG_NAME, "body").get_attribute("innerHTML")
 
-    project_dir = Path(__file__).resolve().parent
-    debug_dir = project_dir / "debug"
-    debug_dir.mkdir(exist_ok=True)
-
-    screenshot_path = debug_dir / "audi-richmond-page.png"
-    html_path = debug_dir / "audi-richmond-page.html"
-
-    html_path.write_text(body_html, encoding="utf-8")
-    driver.save_screenshot(str(screenshot_path))
+    ### Uncomment for debug html file and screenshot of page
+    # body_html = driver.find_element(By.TAG_NAME, "body").get_attribute("innerHTML")
+    # project_dir = Path(__file__).resolve().parent
+    # debug_dir = project_dir / "debug"
+    # debug_dir.mkdir(exist_ok=True)
+    # screenshot_path = debug_dir / "audi-richmond-page.png"
+    # html_path = debug_dir / "audi-richmond-page.html"
+    # html_path.write_text(body_html, encoding="utf-8")
+    # driver.save_screenshot(str(screenshot_path))
 
     print("--- PAGE STATE ---")
     print(f"URL: {current_url}")
     print(f"Title: {page_title}")
-    print(f"Saved body HTML: {html_path}")
-    print(f"Screenshot: {screenshot_path}")
+    # print(f"Saved body HTML: {html_path}")
+    # print(f"Screenshot: {screenshot_path}")
     print("--- END PAGE STATE ---")
 
 
