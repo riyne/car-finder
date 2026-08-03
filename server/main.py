@@ -6,7 +6,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from pathlib import Path
 
 # source .venv/bin/activate
@@ -24,11 +23,18 @@ app.add_middleware(
 
 DEALER_URLS = {
     "audi-richmond": "https://www.audirichmond.com/en/inventory/used/",
+    "audi-capilano": "https://www.audicapilano.com/en/inventory/used/",
+    "openroad-audi": "https://www.openroadaudi.com/en/inventory/used/",
+    "audi-downtown-vancouver": "https://www.audidowntownvancouver.ca/en/inventory/used/",
 }
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
-CURRENT_STOCK_CSV = DATA_DIR / "current_stock.csv"
+
+
+def get_current_stock_csv_path(dealer_key: str) -> Path:
+    return DATA_DIR / f"current_stock_{dealer_key}.csv"
+
 
 BRANDS = {
     'Audi',
@@ -54,7 +60,6 @@ BRANDS = {
     'Toyota',
     'Lincoln'
 }
-
 
 def click_load_more_vehicles(driver: webdriver.Chrome, timeout: int = 20) -> None:
     button_xpath = "//button[normalize-space()='Load more vehicles']"
@@ -129,11 +134,11 @@ def extract_inventory_rows(driver: webdriver.Chrome) -> list[dict]:
     return inventory_rows
 
 
-def load_previous_stock_rows() -> list[dict]:
-    if not CURRENT_STOCK_CSV.exists():
+def load_previous_stock_rows(current_stock_csv: Path) -> list[dict]:
+    if not current_stock_csv.exists():
         return []
 
-    with CURRENT_STOCK_CSV.open("r", newline="", encoding="utf-8") as csv_file:
+    with current_stock_csv.open("r", newline="", encoding="utf-8") as csv_file:
         reader = csv.DictReader(csv_file)
         return list(reader)
 
@@ -179,6 +184,8 @@ def get_cars(dealer_key: str):
     if url is None:
         raise HTTPException(status_code=404, detail="Unknown dealer")
 
+    current_stock_csv = get_current_stock_csv_path(dealer_key)
+
     options = Options()
     options.add_argument("--window-size=1440,1200")
     options.add_argument("--headless=new")
@@ -196,12 +203,12 @@ def get_cars(dealer_key: str):
         dump_page_state(driver)
         click_load_more_vehicles(driver)
 
-        previous_stock_rows = load_previous_stock_rows()
+        previous_stock_rows = load_previous_stock_rows(current_stock_csv)
         inventory_rows = extract_inventory_rows(driver)
         stock_diff = compare_stock_rows(inventory_rows, previous_stock_rows)
 
         DATA_DIR.mkdir(exist_ok=True)
-        with CURRENT_STOCK_CSV.open("w", newline="", encoding="utf-8") as csv_file:
+        with current_stock_csv.open("w", newline="", encoding="utf-8") as csv_file:
             writer = csv.DictWriter(csv_file, fieldnames=["stock", "year", "brand", "model", "link"])
             writer.writeheader()
             writer.writerows(inventory_rows)
@@ -213,7 +220,7 @@ def get_cars(dealer_key: str):
         return {
             "dealer": dealer_key,
             "count": len(inventory_rows),
-            "csv_path": str(CURRENT_STOCK_CSV),
+            "csv_path": str(current_stock_csv),
             "new_stock": stock_diff["new_stock"],
             "removed_stock": stock_diff["removed_stock"],
         }
