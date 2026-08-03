@@ -30,6 +30,31 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 CURRENT_STOCK_CSV = DATA_DIR / "current_stock.csv"
 
+BRANDS = {
+    'Audi',
+    'BMW',
+    'Mercedes-Benz',
+    'Tesla',
+    'Volkswagen',
+    'Chrysler',
+    'Jeep',
+    'Cadillac',
+    'Volvo',
+    'Porsche',
+    'Dodge',
+    'Ford',
+    'Honda',
+    'Hyundai',
+    'Kia',
+    'Lexus',
+    'Land Rover',
+    'Mazda',
+    'Nissan',
+    'RAM',
+    'Toyota',
+    'Lincoln'
+}
+
 
 def click_load_more_vehicles(driver: webdriver.Chrome, timeout: int = 20) -> None:
     button_xpath = "//button[normalize-space()='Load more vehicles']"
@@ -49,14 +74,14 @@ def click_load_more_vehicles(driver: webdriver.Chrome, timeout: int = 20) -> Non
 
 
 def parse_title(title: str) -> dict:
-    parts = [part for part in title.strip().split(" ") if part]
+    year = title.strip().split(" ")[0]
+    brand = 'NA'
+    model = 'NA'
 
-    if len(parts) < 3:
-        return {"year": "", "brand": "", "model": title.strip()}
-
-    year = parts[0]
-    brand = parts[1]
-    model = " ".join(parts[2:])
+    for b in BRANDS:
+        if b in title:
+            brand = b
+            model = title.strip().split(b)[1]
 
     return {"year": year, "brand": brand, "model": model}
 
@@ -68,9 +93,11 @@ def extract_inventory_rows(driver: webdriver.Chrome) -> list[dict]:
         return stockElements.map((stockElement) => {
           const card = stockElement.closest('article') || stockElement.closest('li') || stockElement.parentElement;
           const titleElement = card ? card.querySelector('h3') : null;
+          const linkElement = card ? card.querySelector('a') : null;
           return {
             stockNumber: (stockElement.textContent || '').trim(),
             title: (titleElement && titleElement.textContent ? titleElement.textContent : '').trim(),
+            link: (linkElement && linkElement.href) ? linkElement.href : ''
           };
         });
         """
@@ -80,10 +107,9 @@ def extract_inventory_rows(driver: webdriver.Chrome) -> list[dict]:
     seen_stock_numbers: set[str] = set()
 
     for row in rows:
-        stock_number_text = (row.get("stockNumber") or "").strip()
+        stock_number = (row.get("stockNumber") or "").strip().split("Stock #: ")[1]
         title = (row.get("title") or "").strip()
-
-        stock_number = stock_number_text.lower().split("Stock #: ")[-1].strip(" :")
+        link = (row.get("link") or "")
 
         if not stock_number or stock_number in seen_stock_numbers:
             continue
@@ -91,15 +117,38 @@ def extract_inventory_rows(driver: webdriver.Chrome) -> list[dict]:
         parsed_title = parse_title(title)
         inventory_rows.append(
             {
-                "stock number": stock_number,
+                "stock": stock_number,
                 "year": parsed_title["year"],
                 "brand": parsed_title["brand"],
                 "model": parsed_title["model"],
+                "link": link
             }
         )
         seen_stock_numbers.add(stock_number)
 
     return inventory_rows
+
+
+def load_previous_stock_rows() -> list[dict]:
+    if not CURRENT_STOCK_CSV.exists():
+        return []
+
+    with CURRENT_STOCK_CSV.open("r", newline="", encoding="utf-8") as csv_file:
+        reader = csv.DictReader(csv_file)
+        return list(reader)
+
+
+def compare_stock_rows(current_rows: list[dict], previous_rows: list[dict]) -> dict:
+    current_by_stock = {row.get("stock", ""): row for row in current_rows if row.get("stock")}
+    previous_by_stock = {row.get("stock", ""): row for row in previous_rows if row.get("stock")}
+
+    new_stock = [row for stock, row in current_by_stock.items() if stock not in previous_by_stock]
+    removed_stock = [row for stock, row in previous_by_stock.items() if stock not in current_by_stock]
+
+    return {
+        "new_stock": new_stock,
+        "removed_stock": removed_stock,
+    }
 
 
 def dump_page_state(driver: webdriver.Chrome) -> None:
@@ -148,18 +197,26 @@ def get_cars(dealer_key: str):
         dump_page_state(driver)
         click_load_more_vehicles(driver)
 
+        previous_stock_rows = load_previous_stock_rows()
         inventory_rows = extract_inventory_rows(driver)
+        stock_diff = compare_stock_rows(inventory_rows, previous_stock_rows)
 
         DATA_DIR.mkdir(exist_ok=True)
         with CURRENT_STOCK_CSV.open("w", newline="", encoding="utf-8") as csv_file:
-            writer = csv.DictWriter(csv_file, fieldnames=["stock number", "year", "brand", "model"])
+            writer = csv.DictWriter(csv_file, fieldnames=["stock", "year", "brand", "model", "link"])
             writer.writeheader()
             writer.writerows(inventory_rows)
 
         print(f"Total cars found: {len(inventory_rows)}")
-        for row in inventory_rows:
-            print(row)
+        print(f"New stock count: {len(stock_diff['new_stock'])}")
+        print(f"Removed stock count: {len(stock_diff['removed_stock'])}")
 
-        return {"dealer": dealer_key, "count": len(inventory_rows), "csv_path": str(CURRENT_STOCK_CSV), "cars": inventory_rows}
+        return {
+            "dealer": dealer_key,
+            "count": len(inventory_rows),
+            "csv_path": str(CURRENT_STOCK_CSV),
+            "new_stock": stock_diff["new_stock"],
+            "removed_stock": stock_diff["removed_stock"],
+        }
     finally:
         driver.quit()

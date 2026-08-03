@@ -1,186 +1,180 @@
-stock number,year,brand,model
-stock #: aur14990,2025,Audi,Q5
-stock #: auzu3264,2025,Audi,A5 Sedan
-stock #: sl0001,2025,Audi,Q5
-stock #: rs0004,2026,Audi,Q7
-stock #: dn26163,,,2022 Porsche
-stock #: dn94831,,,2021 Mercedes-Benz
-stock #: rs0009,2025,Audi,Q5
-stock #: rs0008,2025,Audi,Q5
-stock #: pl0366,2019,Porsche,Macan
-stock #: nh10688,2024,Audi,Q7
-stock #: nh42217,,,2022 Mercedes-Benz
-stock #: nh29023,,,2023 Mercedes-Benz
-stock #: dn23245a,2019,BMW,X4
-stock #: rs0012,2026,Audi,Q8
-stock #: nh91002,2024,Land,Rover Range Rover Sport
-stock #: pl0364a,2018,BMW,X5
-stock #: ausy7858,2026,Audi,Q3 SUV
-stock #: nhd43783,2024,Tesla,Model S
-stock #: aulw1538a,2024,Audi,S5 Sportback
-stock #: pl0383,2023,Audi,Q5 Sportback
-stock #: pw0188a,2023,Land,Rover Range Rover Sport
-stock #: nh15466,2025,Ford,Mustang
-stock #: nh11140,2023,Chevrolet,Corvette
-stock #: pl0380a,2019,Jeep,Compass
-stock #: pw0211,2023,BMW,iX
-stock #: nh13318,2026,Mercedes-Benz,GLS 450
-stock #: auqn4943a,2025,Ford,Bronco
-stock #: pw0218,2022,Audi,e-tron GT quattro
-stock #: pw0213,2022,Audi,e-tron GT quattro
-stock #: nh18042,2024,Audi,Q4 e-tron
-stock #: pw0210,2026,Honda,CR-V
-stock #: nh36838,,,2022 Mercedes-Benz
-stock #: dn99633,2021,BMW,X5
-stock #: pw0220,,,2023 Mercedes-Benz
-stock #: nh03731,2023,BMW,X5 M
-stock #: nh79844,2023,Audi,Q4 Sportback e-tron
-stock #: pl0376a,2019,Lexus,UX 250h
-stock #: pl0394,2023,Audi,Q3 SUV
-stock #: pw0219a,2014,BMW,X3
-stock #: nh20743,2023,Audi,Q3 SUV
-stock #: pw0228,2025,Audi,Q3 SUV
-stock #: pw0229,2025,Audi,Q3 SUV
-stock #: nh01332,,,2024 Mercedes-Benz
-stock #: dn77071b,2020,Land,Rover Range Rover Evoque
-stock #: dn77071a,2017,Lincoln,MKC
-stock #: pw0231,2022,Mercedes-Benz,GLE 350
-stock #: pl0402,2024,Audi,Q3 SUV
-stock #: pw0234,,,2023 Mercedes-Benz
-stock #: pw0237,2025,Audi,Q4 Sportback e-tron
-stock #: pw0236,2025,Audi,SQ5
-stock #: pl0404,2023,Audi,RS6 Avant
-stock #: nhd34546,2018,Porsche,Panamera
-stock #: pw0238,2026,RAM,2500
-stock #: nh04066,2024,Audi,S5 Sportback
-stock #: pw0163b,,,2019 Mercedes-Benz
-stock #: nh27862,2024,Ford,F-150
-stock #: aumx8918a,2023,Nissan,Rogue
-stock #: kg61846a,2019,Porsche,718 Cayman
-stock #: nhd07347,2022,Lincoln,Corsair
-stock #: nh00062,2023,Audi,RS5 Coupé
-stock #: dn34781,2020,Tesla,Model X
-stock #: rs0020,2025,Audi,Q5 Sportback
-stock #: nh52229a,2017,Honda,Pilot
-stock #: dn12651a,2022,Nissan,Qashqai
-stock #: pw0239,2023,Mercedes-Benz,EQS 450
-stock #: pb0055,2019,Nissan,Pathfinder
-stock #: pw0240,2022,Audi,e-tron S Sportback
-stock #: pl0409,2022,Audi,S3 Sedan
-stock #: auzr3935a,,,2021 BMW
-stock #: pb0056,2024,Audi,Q4 e-tron
-stock #: pb0057,2022,Audi,RS 7 Sportback
-stock #: dn52788,2024,BMW,iX
-stock #: nhd21988,2024,Audi,S5 Sportback
-stock #: dn66993,2025,Audi,Q3 SUV
-stock #: nh52664,2025,Audi,S3 Sedan
-stock #: pl0410,2023,Audi,Q4 e-tron
-stock #: rs0021,2025,Audi,A5 Sedan
-stock #: nh05534a,2024,Honda,CR-V
-stock #: aufy8804a,2023,Honda,CR-V
-stock #: pl0412,2022,Audi,Q5
-stock #: dn40699,2025,Audi,S5
-stock #: pb0060,2019,Audi,Q7
-stock #: pl0406a,2025,Toyota,Highlander Hybrid
-stock #: pl0413,2025,Audi,Q5
-stock #: pb0061,2018,Audi,Q5
-stock #: aufy8793a,2023,Mazda,CX-5
-stock #: pw0247,2022,Audi,e-tron
-stock #: pw0250,2023,Audi,e-tron GT quattro
-stock #: pw0248,2022,Audi,e-tron
-stock #: pw0243,2022,Audi,RS e-tron GT
-stock #: pw0251,2022,Audi,e-tron GT quattro
-stock #: pw0242,2025,Audi,Q6 e-tron
-stock #: pw0244,2022,Audi,e-tron GT quattro
-stock #: dn86502,2023,BMW,iX
-stock #: aup83816a,2022,Lexus,RX 450h
-stock #: autb4148a,2017,Audi,Q5
-stock #: nh83119a,2014,Mercedes-Benz,G 63 AMG
-stock #: pw0254,2025,Audi,Q3 SUV
-stock #: pl0417,2024,Audi,Q7
-stock #: auzr3944a,2022,Land,Rover Range Rover Sport
-stock #: pl0419,2025,Audi,Q6 e-tron
-stock #: pl0418,2023,Audi,Q4 e-tron
-stock #: aumx8906a,2021,Audi,Q5
-stock #: pw0255,2022,Audi,e-tron Sportback
-stock #: autz6976a,2017,Dodge,Durango
-stock #: rs0023,2025,Audi,Q5
-stock #: nh01166b,2014,Audi,R8 Coupé
-stock #: auka3590a,2021,Toyota,RAV4
-stock #: pl0420,2022,Audi,Q7
-stock #: ausk1851a,2023,Audi,A5 Sportback
-stock #: pl0397a,2017,Honda,CR-V
-stock #: pw0259,2025,Audi,Q3 SUV
-stock #: pw0257,2025,Audi,Q3 SUV
-stock #: pw0258,2025,Audi,Q3 SUV
-stock #: pw0261,2022,RAM,1500
-stock #: pw0262,2023,Jeep,Grand Cherokee 4xe
-stock #: pw0265,2025,Volkswagen,Tiguan
-stock #: auvl5192a,2017,Audi,A3 Sedan
-stock #: pw0260,2025,Audi,Q3 SUV
-stock #: dn32041,2023,Audi,Q5
-stock #: pl0168d,2020,BMW,M2
-stock #: nh07577,2022,Ford,Mustang Mach-E
-stock #: dn07827,2023,Mercedes-Benz,EQS 450
-stock #: pw0266,,,2023 Mercedes-Benz
-stock #: pw0267,2025,Audi,SQ7
-stock #: pl0421,2022,Audi,SQ5
-stock #: dn50345,,,2019 Porsche
-stock #: pl0425,2024,Audi,Q3 SUV
-stock #: pl0391a,2017,Volkswagen,Tiguan
-stock #: rs0018a,2020,Audi,Q5
-stock #: pl0423,2023,Audi,S5 Sportback
-stock #: pw0269,2022,Audi,e-tron
-stock #: pl0426,2024,Audi,Q3 SUV
-stock #: aufy8785b,2018,BMW,X3
-stock #: nh43222a,2013,Chevrolet,Spark
-stock #: pl0424,2024,Audi,A5 Sportback
-stock #: nh18611,2024,Kia,EV9
-stock #: nh27008,2023,Hyundai,IONIQ 6
-stock #: nh86150,2021,Tesla,Model Y
-stock #: pw0195a,2017,Dodge,Charger
-stock #: pl0365b,,,2020 Mercedes-Benz
-stock #: autb4162a,2024,Audi,SQ5
-stock #: aumx8916a,2011,Audi,S5 Coupé
-stock #: rs0024,2025,Audi,Q5
-stock #: pb0064,2019,Audi,e-tron
-stock #: pb0063,2023,Audi,Q5
-stock #: rs0022,2025,Audi,SQ5
-stock #: rs0017a,2016,Audi,Q3 SUV
-stock #: nh68523a,2025,Mercedes-Benz,GLC 300
-stock #: pw0271,2025,Audi,SQ6 e-tron
-stock #: nh35470,2022,Audi,e-tron Sportback
-stock #: pw0270,2023,Audi,Q4 e-tron
-stock #: auvl5259a,2017,Mercedes-Benz,CLA 250
-stock #: pb0059a,2012,Volkswagen,Golf GTI
-stock #: pl0429,2023,Audi,A5 Sportback
-stock #: pl0384a,2026,Volkswagen,Golf R
-stock #: pl0430,2024,Audi,Q5
-stock #: nh45784,2022,Tesla,Model X
-stock #: nh56244,2024,Tesla,Model X
-stock #: nh57019,2024,Tesla,Model X
-stock #: nh53632,2022,Tesla,Model X
-stock #: pw0272,2022,Audi,e-tron GT quattro
-stock #: pb0065,2020,BMW,M340i
-stock #: pw0253a,2015,Audi,RS5 Coupé
-stock #: pb0066,2018,Chrysler,Pacifica Hybrid
-stock #: pl0431,2024,Audi,Q3 SUV
-stock #: nh46073,2022,Tesla,Model X
-stock #: aumx8905a,2026,Honda,CR-V
-stock #: pw0264a,2022,Jeep,Grand Cherokee L
-stock #: dn54145a,2024,Cadillac,Escalade
-stock #: pl0428,2024,Audi,Q5
-stock #: pw0274,2025,Volvo,EX30
-stock #: pl0433,2024,Audi,A5 Sportback
-stock #: auvl5272a,2018,Audi,Q7
-stock #: pb0067,2023,Audi,Q8
-stock #: pl0432,2024,Audi,Q3 SUV
-stock #: pw0252a,2019,Audi,RS5 Sportback
-stock #: pl0427a,2015,Audi,A3 Sedan
-stock #: dn87081,2023,Audi,Q5 TFSI e Plug-in Hybrid
-stock #: pw0214a,2021,Audi,RS5 Sportback
-stock #: pl0385a,2018,Porsche,Macan
-stock #: pb0068,2023,Audi,Q4 e-tron
-stock #: pw0256a,2025,Lexus,ES 300h
-stock #: auqn4961b,2015,BMW,X3
-stock #: autb4138a,2021,Lexus,IS 300
+stock,year,brand,model,link
+AUR14990,2025,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA11AAGU6S2022005
+AUZU3264,2025,Audi, A5 Sedan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAU3BCFU2SN058195
+RS0004,2026,Audi, Q7,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1BVBF73TD002424
+DN26163,2022,Porsche,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WP0BA2A92NS226163
+DN94831,2021,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=W1N4N5BB2MJ194831
+RS0009,2025,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA11AAGU8S2023740
+RS0008,2025,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA11AAGU1S2043876
+PL0366,2019,Porsche, Macan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WP1AB2A58KLB33187
+NH10688,2024,Audi, Q7,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1ACBF78RD010688
+NH42217,2022,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=W1NYC7HJ9NX442217
+NH29023,2023,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=4JGGM1CB4PA029023
+DN23245A,2019,BMW, X4,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5UXUJ3C5XKLA58644
+RS0012,2026,Audi, Q8,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1DVBF1XTD005468
+NH91002,2024,Land Rover, Range Rover Sport,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=SAL1M9FU3RA191002
+PL0364A,2018,BMW, X5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5UXKR0C55JL071926
+AUSY7858,2026,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1ABCFJ5T1060686
+NHD43783,2024,Tesla, Model S,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5YJSA1E6XRF543783
+AULW1538A,2024,Audi, S5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUA4CF52RA072674
+PL0383,2023,Audi, Q5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA14AAFY7P2107167
+PW0188A,2023,Land Rover, Range Rover Sport,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=SAL1L9FU9PA134951
+NH15466,2025,Ford, Mustang,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1FAGP8UHXS5115466
+NH11140,2023,NA,NA,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1G1YB3D48P5111140
+PL0380A,2019,Jeep, Compass,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=3C4NJDCB8KT759699
+NH13318,2026,Mercedes-Benz, GLS 450,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=4JGFF5KE4TB513318
+AUQN4943A,2025,Ford, Bronco,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1FMEE0RR2SLA53109
+PW0218,2022,Audi, e-tron GT quattro,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUFJBFW6N7001468
+PW0213,2022,Audi, e-tron GT quattro,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUFJBFW8N7008776
+NH18042,2024,Audi, Q4 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1G2AFZ1RP018042
+PW0210,2026,Honda, CR-V,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2HKRS6H91TH214168
+NH36838,2022,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=4JGFB6BB9NA636838
+DN99633,2021,BMW, X5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5UXJU4C05M9D99633
+PW0220,2023,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=W1NYC7HJ2PX482187
+NH03731,2023,BMW, X5 M,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5YMJU0C00P9P03731
+NH79844,2023,Audi, Q4 Sportback e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA142AFZ1PP079844
+PL0376A,2019,Lexus, UX 250h,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=JTHU9JBH0K2011263
+PL0394,2023,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1FECF36P1143399
+PW0219A,2014,BMW, X3,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5UXWX7C51EL983474
+NH20743,2023,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EECF37P1120743
+PW0228,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1FECF3XS1100614
+PW0229,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EECF38S1083548
+NH01332,2024,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=W1KRJ7JBXRF001332
+DN77071B,2020,Land Rover, Range Rover Evoque,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=SALZJ2FX6LH097658
+DN77071A,2017,Lincoln, MKC,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5LMTJ3DHXHUL07197
+PL0402,2024,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AUCF36R1175723
+PW0234,2023,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=W1K7X6BB6PA055624
+PW0237,2025,Audi, Q4 Sportback e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA12UAFZ3SP070475
+PW0236,2025,Audi, SQ5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA135AGU1S2109792
+PL0404,2023,Audi, RS6 Avant,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WUA1CBF27PN903939
+NHD34546,2018,Porsche, Panamera,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WP0AB2A72JL134546
+PW0238,2026,RAM, 2500,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=3C6UR5EL1TG180538
+NH04066,2024,Audi, S5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUB4CF57RA004066
+PW0163B,2019,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WDDWJ6EB6KF790348
+NH27862,2024,Ford, F-150,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1FTFW7LD8RFA27862
+AUMX8918A,2023,Nissan, Rogue,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=JN8BT3CB9PW207352
+KG61846A,2019,Porsche, 718 Cayman,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WP0AA2A87KS261344
+NHD07347,2022,Lincoln, Corsair,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5LMTJ5DZ3NUL07347
+NH00062,2023,Audi, RS5 Coupé,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WUANWAF50PA900062
+DN34781,2020,Tesla, Model X,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5YJXCBE41LF234781
+RS0020,2025,Audi, Q5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EAAGU9S2077808
+NH52229A,2017,Honda, Pilot,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5FNYF6H93HB507088
+DN12651A,2022,Nissan, Qashqai,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=JN1BJ1AW2NW480760
+PW0239,2023,Mercedes-Benz, EQS 450,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=4JGDM2EB8PA007760
+PB0055,2019,Nissan, Pathfinder,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5N1DR2MMXKC614423
+PW0240,2022,Audi, e-tron S Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA11CAGE9NB027819
+PL0409,2022,Audi, S3 Sedan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUJ3CGY1NA067195
+AUZR3935A,2021,BMW,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5UXTA6C05M9G80506
+PB0057,2022,Audi, RS 7 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WUAPCBF29NN905151
+DN52788,2024,BMW, iX,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WB513CF0XRCR52788
+DN66993,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AUCF38S1066993
+NH52664,2025,Audi, S3 Sedan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUH5CGY6SA052664
+PL0410,2023,Audi, Q4 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1L2AFZ1PP045446
+RS0021,2025,Audi, A5 Sedan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAU1BCFU0SN037241
+NH05534A,2024,Honda, CR-V,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2HKRS6H93RH201530
+AUFY8804A,2023,Honda, CR-V,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2HKRS4H7XPH100629
+PL0412,2022,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EAAFY0N2116682
+DN40699,2025,Audi, S5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAU15CFU8SN040699
+PB0060,2019,Audi, Q7,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1MAAF71KD000250
+PL0406A,2025,Toyota, Highlander Hybrid,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5TDKBRCH8SS683705
+PL0413,2025,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EAAFY5S2010014
+PB0061,2018,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1ANAFY8J2000790
+AUFY8793A,2023,Mazda, CX-5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=JM3KFBDY0P0146306
+PW0247,2022,Audi, e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AAAGE8NB037800
+PW0250,2023,Audi, e-tron GT quattro,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUFJBFW6P7001392
+PW0248,2022,Audi, e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AAAGE2NB041681
+PW0243,2022,Audi, RS e-tron GT,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUAHBFW8N7900743
+PW0251,2022,Audi, e-tron GT quattro,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUFJBFW5N7001168
+PW0242,2025,Audi, Q6 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA154BGFXSA061654
+PW0244,2022,Audi, e-tron GT quattro,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUCJBFW9N7006358
+DN86502,2023,BMW, iX,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WB513CF0XPCL86502
+AUP83816A,2022,Lexus, RX 450h,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2T2HGMDA6NC081667
+AUTB4148A,2017,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1M2AFPXHA100726
+NH83119A,2014,Mercedes-Benz, G 63 AMG,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WDCYC7DF4EX216475
+PW0254,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1FECF38S1038534
+PL0417,2024,Audi, Q7,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1BXBF72RD006645
+AUZR3944A,2022,Land Rover, Range Rover Sport,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=SALWS2RU5NA200081
+PL0419,2025,Audi, Q6 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA124BGF2SA005713
+PL0418,2023,Audi, Q4 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1L2AFZ5PP073685
+AUMX8906A,2021,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EAAFY2M2134101
+PW0255,2022,Audi, e-tron Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA11AAGE1NB029974
+AUTZ6976A,2017,Dodge, Durango,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1C4SDJCTXHC923976
+RS0023,2025,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA12AAGU3S2086104
+NH01166B,2014,Audi, R8 Coupé,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WUAFUAFG4EN000220
+AUKA3590A,2021,Toyota, RAV4,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2T3R1RFV8MC219027
+PL0420,2022,Audi, Q7,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1BXBF78ND011231
+AUSK1851A,2023,Audi, A5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUEACF57PA005933
+PL0397A,2017,Honda, CR-V,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2HKRW2H81HH120528
+PW0259,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AUCF3XS1079096
+PW0257,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AUCF35S1066370
+PW0258,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AUCF38S1079081
+PW0261,2022,RAM, 1500,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1C6SRFFT9NN471956
+PW0262,2023,Jeep, Grand Cherokee 4xe,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1C4RJYB67P8891534
+PW0265,2025,Volkswagen, Tiguan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=3VVER7RM9SM060158
+AUVL5192A,2017,Audi, A3 Sedan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUB8GFF4H1072960
+PW0260,2025,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AUCF36S1079077
+DN32041,2023,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EAAFY9P2032041
+PL0168D,2020,BMW, M2,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WBS2U7C06L7E00783
+NH07577,2022,Ford, Mustang Mach-E,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=3FMTK3SUXNMA07577
+DN07827,2023,Mercedes-Benz, EQS 450,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=4JGDM2EB3PA007827
+PW0266,2023,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=4JGFB8KBXPA944325
+PW0267,2025,Audi, SQ7,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AWBF72SD024812
+PL0421,2022,Audi, SQ5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1C4AFYXN2042878
+DN50345,2019,Porsche,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WP1AE2AY7KDA50345
+PL0425,2024,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1DECF33R1175009
+PL0391A,2017,Volkswagen, Tiguan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WVGLV7AX8HW511799
+RS0018A,2020,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1BNAFY0L2048310
+PL0423,2023,Audi, S5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUB4CF52PA054998
+PW0269,2022,Audi, e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AAAGE9NB042603
+PL0426,2024,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AUCF38R1172631
+AUFY8785B,2018,BMW, X3,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5UXTR9C5XJLC83040
+NH43222A,2013,NA,NA,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=KL8CB6S92DC503905
+PL0424,2024,Audi, A5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUEACF58RA004017
+NH18611,2024,Kia, EV9,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=KNDAB5S12R6018611
+NH27008,2023,Hyundai, IONIQ 6,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=KMHM34AC5PA027008
+NH86150,2021,Tesla, Model Y,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5YJYGDEE1MF186150
+PW0195A,2017,Dodge, Charger,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2C3CDXGJ6HH657342
+PL0365B,2020,Mercedes-Benz,,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=W1K2J6BB6LA071585
+AUTB4162A,2024,Audi, SQ5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1C4AFY3R2066025
+AUMX8916A,2011,Audi, S5 Coupé,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAULVBFR7BA002595
+RS0024,2025,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA12AAGU7S2065031
+PB0064,2019,Audi, e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1VAAGE3KB009271
+PB0063,2023,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1AAAFY8P2112400
+RS0022,2025,Audi, SQ5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA135AGU6S2095985
+RS0017A,2016,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1JFCFS8GR002754
+NH68523A,2025,Mercedes-Benz, GLC 300,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=W1NKM4HB2SF331911
+PW0271,2025,Audi, SQ6 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA135BGF2SA079618
+NH35470,2022,Audi, e-tron Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA13AAGE2NB035470
+PW0270,2023,Audi, Q4 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1L2AFZ4PP072124
+AUVL5259A,2017,Mercedes-Benz, CLA 250,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WDDSJ4GB7HN444663
+PB0059A,2012,Volkswagen, Golf GTI,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WVWHV7AJ0CW228621
+PL0429,2023,Audi, A5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUFACF53PA037153
+PL0384A,2026,Volkswagen, Golf R,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WVWHF7CDXTW172689
+PL0430,2024,Audi, Q5,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1EAAFY0R2023313
+NH45784,2022,Tesla, Model X,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=7SAXCBE64NF345784
+NH56244,2024,Tesla, Model X,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=7SAXCBE64RF456244
+NH57019,2024,Tesla, Model X,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=7SAXCBE62RF457019
+NH53632,2022,Tesla, Model X,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=7SAXCBE6XNF353632
+PW0272,2022,Audi, e-tron GT quattro,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUCJBFW7N7006889
+PB0065,2020,BMW, M340i,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WBA5U9C0XLFH67625
+PW0253A,2015,Audi, RS5 Coupé,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WUAC6BFR7FA900090
+PB0066,2018,Chrysler, Pacifica Hybrid,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2C4RC1L71JR355344
+PL0431,2024,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1DECF33R1046493
+NH46073,2022,Tesla, Model X,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=7SAXCBE69NF346073
+AUMX8905A,2026,Honda, CR-V,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=2HKRS6H98TH206424
+PW0264A,2022,Jeep, Grand Cherokee L,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1C4RJKBG6N8529780
+DN54145A,2024,Cadillac, Escalade,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=1GYS4GKT6RR305079
+PW0274,2025,Volvo, EX30,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=YV4EK3ZK8SS112510
+PL0433,2024,Audi, A5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUFACF53RA095086
+AUVL5272A,2018,Audi, Q7,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1WAAF78JD054345
+PB0067,2023,Audi, Q8,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1DVBF17PD050437
+PL0432,2024,Audi, Q3 SUV,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1FECF30R1184761
+PW0252A,2019,Audi, RS5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WUACWCF59KA902680
+PL0427A,2015,Audi, A3 Sedan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WAUKFRFFXF1112070
+DN87081,2023,Audi, Q5 TFSI e Plug-in Hybrid,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1F2AFY8P2087081
+PW0214A,2021,Audi, RS5 Sportback,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WUABWCF51MA902932
+PL0385A,2018,Porsche, Macan,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WP1AB2A5XJLB34033
+PB0068,2023,Audi, Q4 e-tron,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=WA1G2AFZ8PP045316
+PW0256A,2025,Lexus, ES 300h,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=58AB21B11SU015265
+AUQN4961B,2015,BMW, X3,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=5UXWY3C55F0E96127
+AUTB4138A,2021,Lexus, IS 300,https://www.audirichmond.com/en/inventory/vehicle/?isdealer&market=cauc&vehicleId=JTHC81F26M5045780
